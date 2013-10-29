@@ -1,0 +1,16 @@
+General parameters
+--current	Directory of your current config (/usr/local/zend/etc)
+--prev		Directory of your previous config (may be a temp. directory)
+
+Commandd
+
+daemons : Analyse daemon directives
+	--diff=0 or 1		Display only diff directives
+
+
+extensions : analyse PHP extensions directives
+	--diff=0 or 1		Display only diff directives
+	--extension=name	Display information about "name" extension
+	
+php : Analyse php.ini dif
+	--diff=0 or 1		Display only diff directives
